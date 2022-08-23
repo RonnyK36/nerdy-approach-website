@@ -20,3 +20,8 @@
     margin-top: 30px;
     width: 200px;
 }
+
+.header-text {
+    max-width: 350px;
+    margin-top: 140px;
+}
