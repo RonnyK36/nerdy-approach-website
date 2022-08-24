@@ -1,155 +1,175 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 .header {
-    height: 100vh;
-    background-image: url(images/background.png);
-    background-position: center;
-    background-size: cover;
+  height: 100vh;
+  background-image: url(images/background.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
-    margin-right: 100px;
-    margin-left: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .logo {
-    margin-top: 30px;
-    width: 200px;
+  margin-top: 30px;
+  width: 200px;
 }
 
 .header-text {
-    max-width: 350px;
-    margin-top: 140px;
+  max-width: 350px;
+  margin-top: 140px;
 }
 
 h1 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .square {
-    height: 12px;
-    width: 12px;
-    display: inline-block;
-    background: #f67c92;
-    margin: 15px 0;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #f67c92;
+  margin: 15px 0;
 }
 
 .common-btn {
-    padding: 18px 40px;
-    background: transparent;
-    outline: none;
-    border: 2px solid #f67c92;
-    cursor: pointer;
-    font-weight: bold;
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 p {
-    font-size: 15px;
-    line-height: 18px;
-    color: #777;
+  font-size: 15px;
+  line-height: 18px;
+  color: #777;
 }
 
 .header-text button {
-    margin-top: 20px;
-    margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .line-1 {
-    width: 15px;
-    height: 15px;
-    background: #f67c92;
-    display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #f67c92;
+  display: inline-block;
 }
 
 .line-2 {
-    width: 80px;
-    height: 1px;
-    background: #f67c92;
-    display: inline-block;
+  width: 80px;
+  height: 1px;
+  background: #f67c92;
+  display: inline-block;
 }
 
 .line-3 {
-    width: 60px;
-    height: 1px;
-    background: #f67c92;
-    display: inline-block;
+  width: 60px;
+  height: 1px;
+  background: #f67c92;
+  display: inline-block;
 }
 
 .line {
-    line-height: 8px;
+  line-height: 8px;
 }
 
 nav ul li {
-    list-style: none;
-    margin: 50px 20px;
+  list-style: none;
+  margin: 50px 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #side-nav {
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    right: -250px;
-    top: 0;
-    background: #f67c92;
-    z-index: 2;
-    transition: 0.5s;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: #f67c92;
+  z-index: 2;
+  transition: 0.5s;
 }
 
 #menu-btn {
-    width: 50px;
-    right: 65px;
-    top: 35px;
-    z-index: 2;
-    cursor: pointer;
-    position: fixed;
+  width: 50px;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+  position: fixed;
 }
-
 
 /* -----About Section Styles----- */
 
 #about {
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .about-left-col {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .about-left-col img {
-    width: 100%;
+  width: 100%;
 }
 
 .about-right-col {
-    flex-basis: 50%;
-    text-align: right;
+  flex-basis: 50%;
+  text-align: right;
 }
 
 .about-text {
-    max-width: 500px;
-    margin-right: 100px;
-    display: inline-block;
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
 }
 
 .about-text h2 {
-    margin: 50px 0 10px;
-    font-size: 28px;
-    font-style: italic;
+  margin: 50px 0 10px;
+  font-size: 28px;
+  font-style: italic;
 }
 
 .about-text h3 {
-    font-size: 20px;
-    font-style: italic;
-    color: #797979;
+  font-size: 20px;
+  font-style: italic;
+  color: #797979;
+}
+
+/* ----Features---- */
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.feature-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-col {
+  flex-basis: 25%;
+  text-align: center;
 }
