@@ -253,6 +253,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
 .contact-left-col,
@@ -287,4 +288,65 @@ form input {
 .btn-box button {
     flex-basis: 48%;
     padding: 18px 0;
+}
+
+
+/* ---Footer section--- */
+
+.footer {
+    padding: 50px 0 30px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-right-col {
+    flex-basis: 35%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4 {
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+
+.link-title small {
+    font-size: 13px;
+    color: #777;
+}
+
+.footer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.copyright-text,
+.footer-logo {
+    flex-basis: 40%;
 }
