@@ -196,3 +196,27 @@ nav ul li a {
   display: inline-block;
   margin-right: 25px;
 }
+
+/* Services Section */
+
+#services {
+  padding: 100px 0;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services-right-col {
+  flex-basis: 50%;
+}
+
+.services-right-col img {
+  width: 100%;
+}
+
+.services-left-col {
+  flex-basis: 50%;
+}
